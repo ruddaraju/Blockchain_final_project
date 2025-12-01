@@ -61,14 +61,3 @@ npm run dev
 
 4. **Testing**: All tests should pass. If time-travel tests fail, ensure you have the latest Hardhat version
 
-## 🎯 For Your Demo
-
-1. Deploy contract
-2. Add 3-4 members
-3. Create a proposal
-4. Vote on the proposal (from different member accounts)
-5. Execute the proposal
-6. Show the front-end interface
-
-Good luck! 🚀
-
