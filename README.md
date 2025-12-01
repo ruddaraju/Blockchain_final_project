@@ -12,41 +12,6 @@ This project implements a **DAO (Decentralized Autonomous Organization)** voting
 - **Proposal Execution**: Execute proposals that meet quorum and majority requirements
 - **Time-based Features**: Voting periods, membership requirements, and time-dependent functionality
 
-## 🎯 Project Requirements Coverage
-
-### Core Requirements (100 points)
-
-✅ **Working Smart Contract (40 points)**
-- Well-commented Solidity contract using OpenZeppelin libraries
-- Comprehensive functionality for DAO operations
-
-✅ **Deployment on Sepolia Testnet (5 points)**
-- Deployment script included
-- Instructions for Sepolia deployment provided
-
-✅ **Live Demo and Explanation (30 points)**
-- Front-end application for interaction
-- User-friendly interface for all contract functions
-
-✅ **Hardhat Tests (25 points)**
-- Comprehensive test suite covering all functionality
-- Time-travel tests for extra credit
-
-### Extra Credit Features
-
-✅ **OpenZeppelin Standard Implementation (1 point)**
-- Uses `Ownable` and `ReentrancyGuard` from OpenZeppelin
-
-✅ **Working Front-end (Up to 6 points)**
-- React-based front-end with modern UI
-- Full interaction with smart contract
-
-✅ **User Voting or Staking (1 point)**
-- Voting system with weighted votes based on membership duration
-
-✅ **Hardhat Tests with Time-Travel (1 point)**
-- Tests using `evm_increaseTime` feature
-- Time-dependent functionality testing
 
 ## 🏗️ Project Structure
 
@@ -214,18 +179,6 @@ https://sepolia.etherscan.io/address/0x1234567890123456789012345678901234567890
 5. Vote on proposals
 6. Execute successful proposals
 
-## 📊 Project Requirements Checklist
-
-- [x] Working Smart Contract (40 points)
-- [x] Deployment on Sepolia Testnet (5 points)
-- [x] Live Demo and Explanation (30 points)
-- [x] Hardhat Tests (25 points)
-- [x] OpenZeppelin Standard Implementation (1 point extra credit)
-- [x] Working Front-end (6 points extra credit)
-- [x] User Voting (1 point extra credit)
-- [x] Hardhat Tests with Time-Travel (1 point extra credit)
-
-**Total: 100 points + 9 points extra credit**
 
 ## 🔒 Security Features
 
@@ -245,28 +198,6 @@ https://sepolia.etherscan.io/address/0x1234567890123456789012345678901234567890
 - **Ethers.js**: Ethereum library
 - **Chai**: Testing framework
 
-## 🤝 Group Project Notes
-
-### For Presentation
-
-1. **Demo Flow**:
-   - Show contract deployment
-   - Demonstrate member addition
-   - Create a proposal
-   - Show voting process
-   - Execute a proposal
-
-2. **Key Points to Explain**:
-   - How the DAO voting mechanism works
-   - Weighted voting based on membership duration
-   - Quorum and majority requirements
-   - Time-based features
-
-3. **Extra Credit Highlights**:
-   - OpenZeppelin integration
-   - Front-end application
-   - Time-travel tests
-
 ## 📝 License
 
 MIT License
@@ -281,5 +212,4 @@ MIT License
 
 **Project Deadline**: December 1st, 2025
 
-**Good luck with your project! 🚀**
 
